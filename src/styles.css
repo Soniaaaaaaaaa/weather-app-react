@@ -1,0 +1,92 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.card {
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  height: 320px;
+  width: 390px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgb(243, 221, 243);
+}
+.cntr {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form-city {
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 33px;
+  width: 60%;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+.btn-search {
+  margin-left: 5px;
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgb(238, 200, 238);
+}
+.current {
+  font-size: 17px;
+  margin-left: 5px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgb(238, 200, 238);
+}
+
+.update {
+  margin-top: 10px;
+}
+.city,
+.update {
+  margin-left: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-height: 80px;
+}
+.part-1 {
+  margin: 0;
+}
+.icon {
+  position: relative;
+  top: -10px;
+}
+.city,
+.update,
+.part-3 {
+  font-size: 18px;
+}
+.search-icon {
+  color: rgb(151, 72, 145);
+  font-size: 18px;
+}
+.degree {
+  font-size: 55px;
+}
+.unit {
+  position: relative;
+  top: -29px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.part-3 {
+  padding-top: 10px;
+  margin-left: 20px;
+}
